@@ -45,6 +45,7 @@ local scripts1 = {
     ["C Tool"] = "https://raw.githubusercontent.com/shakar60/C/main/Tool",
     ["M Tool"] = "https://raw.githubusercontent.com/shakar60/M/main/Tool",
     ["N Tool"] = "https://raw.githubusercontent.com/shakar60/N/main/Tool"
+    ["B Tool"] = "https://raw.githubusercontent.com/shakar60/B/main/Tool",
 }
 
 -- Define script URLs for the second set of tools
