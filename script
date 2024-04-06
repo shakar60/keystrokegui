@@ -44,7 +44,7 @@ local scripts1 = {
     ["G Tool"] = "https://raw.githubusercontent.com/shakar60/G./main/Tool",
     ["C Tool"] = "https://raw.githubusercontent.com/shakar60/C/main/Tool",
     ["M Tool"] = "https://raw.githubusercontent.com/shakar60/M/main/Tool",
-    ["N Tool"] = "https://raw.githubusercontent.com/shakar60/N/main/Tool"
+    ["N Tool"] = "https://raw.githubusercontent.com/shakar60/N/main/Tool",
     ["B Tool"] = "https://raw.githubusercontent.com/shakar60/B/main/Tool",
 }
 
@@ -54,7 +54,7 @@ local scripts2 = {
     ["F Tool"] = "https://raw.githubusercontent.com/shakar60/F/main/Tool",
     ["X Tool"] = "https://raw.githubusercontent.com/shakar60/X/main/Tool",
     ["Z Tool"] = "https://raw.githubusercontent.com/shakar60/Z/main/Tool",
-    ["T Tool"] = "https://raw.githubusercontent.com/shakar60/T/main/Tool"
+    ["T Tool"] = "https://raw.githubusercontent.com/shakar60/T/main/Tool",
 }
 
 -- Create a frame to hold the buttons as a slider
@@ -94,7 +94,7 @@ local function ToggleTools()
     end
 end
 
--- Create the ">" button in the top left corner
+-- Create the ">" button in the left corner
 local toggleButton = Instance.new("TextButton")
 toggleButton.Name = "ToggleButton"
 toggleButton.Size = UDim2.new(0, 20, 0, 20)
